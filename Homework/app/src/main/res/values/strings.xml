@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Homework1</string>
+    <string name="go_to_second_activity">Go to second activity</string>
+    <string name="welcome_activity_one">Welcome to first activity</string>
+    <string name="welcome_second_activity">Welcome to second activity</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_first_fragment_a2">Hello first fragment from A2</string>
+    <string name="add_second_fragment_a2">Add second fragment</string>
+    <string name="second_fragment_added">Second fragment added</string>
+    <string name="first_fragment_label_a1">First Fragment A1</string>
+    <string name="back_to_fragment1">Go back to first fragment</string>
+    <string name="close_activity">Close activity</string>
+    <string name="replace_with_third_fragment">Replace with third fragment</string>
+    <string name="third_fragment">This is third fragment</string>
+</resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondFragmentA2">
+
+    <TextView
+        android:id="@+id/textview_third"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/second_fragment_added"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_first_f2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="408dp"
+        android:backgroundTint="@color/black"
+        android:text="@string/replace_with_third_fragment"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button_second_f2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="84dp"
+        android:backgroundTint="@color/black"
+        android:text="@string/back_to_fragment1"
+        android:textAllCaps="false"
+        app:layout_constraintStart_toStartOf="@id/button_first_f2"
+        app:layout_constraintTop_toBottomOf="@id/button_first_f2" />
+
+    <Button
+        android:id="@+id/button_third_f2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="456dp"
+        android:backgroundTint="@color/black"
+        android:text="@string/close_activity"
+        android:textAllCaps="false"
+        app:layout_constraintTop_toBottomOf="@id/button_second_f2"
+        app:layout_constraintStart_toStartOf="@id/button_second_f2"
+        app:layout_constraintHorizontal_bias="0.497"
+        />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
